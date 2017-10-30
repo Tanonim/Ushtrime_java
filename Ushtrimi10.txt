@@ -1,0 +1,49 @@
+package ushtrime;
+
+public class Ushtrimi10 {
+	private String name;
+	private String course;
+	private String subject;
+	private String university;
+	private String email;
+	private String phonenumber;
+	private static int count=0;
+	//constructors
+	
+	public Ushtrimi10(String name1, String email1, String phonenumber1,String university1, String subject1, String course1) {
+		name=name1;
+		email=email1;
+		phonenumber=phonenumber1;
+		university=university1;
+		subject=subject1;
+		course=course1;
+		count++;
+	}
+
+	public Ushtrimi10(String university1, String subject1, String course1) {
+		university=university1;
+		subject=subject1;
+		course=course1;
+		count++;
+		}
+	public Ushtrimi10(String name1, String email1, String phonenumber1, String subject1) {
+		name=name1;
+		email=email1;
+		phonenumber=phonenumber1;
+		subject=subject1;
+		count++;
+	}
+	
+	public int getCount() {
+		return count;
+	}
+	public void studentInfo() {
+		System.out.println("Te dhenat e studentit jane:" +name + " " + email + " " + phonenumber + " " + university+ " " +subject + " " + course );
+	}
+	
+	
+	
+}
+
+
+

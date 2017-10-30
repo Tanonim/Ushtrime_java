@@ -1,0 +1,10 @@
+package ushtrime;
+
+public class Ushtrimi10Test {
+	public static void main(String[] args) {
+		
+		Ushtrimi10 std = new Ushtrimi10("Ludi",  "ludilame@gmail.com", "0693536986", "FEUT", "JAVA","Grupi4");
+		System.out.println(std.getCount());
+		std.studentInfo();
+
+	}}
